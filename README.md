@@ -41,8 +41,6 @@ Utilizar los siguientes íconos de métodos de pago:
 
 ## Dificultades por Solucionar
 
-
-- ❌ Falta separación y centrado de íconos de **métodos de pago**
 - ❌ No se logra anteponer CSS personalizado sobre **Bootstrap** para cambiar el color del título de productos
 
 ---
