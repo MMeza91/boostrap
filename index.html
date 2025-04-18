@@ -14,34 +14,37 @@
 
 </head>
 <body>
-    <header> 
-        <!-- <div class="container-fluid bg-body-tertiary"> -->
-            <!--Imagen de navbar-->
-            <nav class="navbar navbar-expand-md  customcolor text-light">
-              <div class="container-fluid customcolor">
-                <a class="navbar-brand px-5" href="#"> 
-                  <img src="./assest/img/logo.png" alt="Suricata" width="132" height="53">
-                </a>
-                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon text-light bs-light ms-auto"></span>
-                </button>
-                <div class="collapse navbar-collapse text-light  px-5" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mb-2 mb-md-0 text-light ms-auto ">
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="#">Contacto</a>
-                    </li>
-                  </ul>
-                  
-                </div>
-              </div>
-            </nav>
-         <!-- </div> -->
+    <header>
+      <nav class="navbar navbar-expand-md  customcolor text-light">
+        <!--Contenedor responsivo-->
+        <div class="container-fluid customcolor">
+          <!-- imagen del logo -->
+          <a class="navbar-brand px-5" href="#"> 
+            <img src="./assest/img/logo.png" alt="Suricata" width="132" height="53">
+          </a>
+          <!-- Botón generado cuando navbar colapsa por tamaño de pantalla -->
+          <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light bs-light ms-auto"></span>
+          </button>
+          <!-- Lista de navbar que es llamada por el boton cuando la pantalla disminuye su tamaño-->
+          <div class="collapse navbar-collapse text-light  px-5" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mb-2 mb-md-0 text-light ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contacto</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+            
+      
       
     </header> <!--movil nav tipo hamburguersa   pc nav tipo lineal-->
 
@@ -49,7 +52,7 @@
     <section class="container-fluid text-center "> <!--grilla movil 1x6  pc 3x2   -->
       <h1 id="titulon" class="col-12">Nuestros Productos</h1>
       <div class="container py-5">
-        <div class="row gx-150rem gy-115rem ">
+        <div class="row gy-5">
 
 
        <!-- Card 1 -->
@@ -207,7 +210,9 @@
     <footer class="customcolor pt-4 pb-5">
         <img class="mx-auto rounded d-block" src="./assest/img/logo-footer.png" alt="Suricata" height="100px">
     </footer>
+  
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
 </html>
