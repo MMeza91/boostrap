@@ -21,12 +21,12 @@ Utilizar la fuente **Open Sans**, importada desde Google Fonts.
 
 ## Colores Utilizados
 
-| Color       | Código Hex      | Variable (Bootstrap) |
-|-------------|-----------------|------------------------|
-| Negro       | `#212529`       | -                      |
-| Blanco      | `#ffffff`       | `var(--white)`         |
-| Rosado      | `#e83e8c`       | `var(--pink)`          |
-| Celeste     | `#17a2b8`       | `var(--info)`          |
+| Color       | Código Hex      |
+|-------------|-----------------|
+| Negro       | `#212529`       | 
+| Blanco      | `#ffffff`       |
+| Rosado      | `#e83e8c`       | 
+| Celeste     | `#17a2b8`       | 
 
 ## Íconos (Font Awesome)
 
