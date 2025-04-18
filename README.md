@@ -39,8 +39,3 @@ Utilizar los siguientes íconos de métodos de pago:
 - `cc-paypal`
 - `cc-discover`
 
-## Dificultades por Solucionar
-
-- ❌ No se logra anteponer CSS personalizado sobre **Bootstrap** para cambiar el color del título de productos
-
----
